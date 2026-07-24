@@ -5,7 +5,7 @@ body {
 
 
 .topbar {
-    height: 50px;
+    height: 40px;
 
     display: flex;
     align-items: center;
@@ -22,12 +22,12 @@ body {
 .left {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 12px;
 }
 
 
 .menu {
-    font-size: 25px;
+    font-size: 20px;
 
     border: none;
     background: transparent;
@@ -37,9 +37,12 @@ body {
 
 
 .logo {
-    height: 55px;
+    height: 35px;
     width: auto;
 }
+
+
+/* Wyszukiwarka */
 
 .search form {
     display: flex;
@@ -47,7 +50,7 @@ body {
 
 
 .search-box {
-    height: 40px;
+    height: 30px;
 
     display: flex;
     align-items: center;
@@ -59,10 +62,10 @@ body {
 
 
 .search-icon {
-    width: 18px;
-    height: 18px;
+    width: 15px;
+    height: 15px;
 
-    margin: 0 10px;
+    margin: 0 8px;
 
     opacity: 0.6;
 }
@@ -71,17 +74,19 @@ body {
 .search-box input {
     width: 300px;
 
+    height: 28px;
+
     border: none;
     outline: none;
 
-    font-size: 16px;
+    font-size: 14px;
 }
 
 
 .search button {
-    height: 42px;
+    height: 32px;
 
-    padding: 0 20px;
+    padding: 0 15px;
 
     background: #eaecf0;
 
@@ -90,15 +95,18 @@ body {
     cursor: pointer;
 }
 
+
+
 .account {
     display: flex;
-    gap: 20px;
+    gap: 15px;
 }
 
 
 .account a {
     color: #36c;
     text-decoration: none;
+    font-size: 14px;
 }
 
 
