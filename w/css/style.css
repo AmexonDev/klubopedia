@@ -129,3 +129,125 @@ body {
 
     border: 1px solid #2a4b8d;
 }
+
+button {
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+
+    transition: 
+        background 0.2s ease,
+        border-color 0.2s ease,
+        transform 0.1s ease;
+}
+
+
+/* przycisk menu */
+
+.menu {
+    width: 38px;
+    height: 38px;
+
+    border: none;
+    border-radius: 10px;
+
+    background: #f8f9fa;
+
+    font-size: 20px;
+
+    cursor: pointer;
+}
+
+
+.menu:hover {
+    background: #eaecf0;
+}
+
+
+.menu:active {
+    transform: scale(0.95);
+}
+
+
+
+/* przyciski konta */
+
+.account-btn {
+
+    height: 36px;
+
+    padding: 0 16px;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    font-size: 14px;
+
+}
+
+
+
+/* utwórz konto */
+
+.secondary {
+
+    background: white;
+
+    color: #202122;
+
+    border: 1px solid #a2a9b1;
+
+}
+
+
+.secondary:hover {
+
+    background: #f8f9fa;
+
+    border-color: #72777d;
+
+}
+
+
+
+/* zaloguj */
+
+.primary {
+
+    background: #36c;
+
+    color: white;
+
+    border: 1px solid #36c;
+
+}
+
+
+.primary:hover {
+
+    background: #2a4b8d;
+
+    border-color: #2a4b8d;
+
+}
+
+
+
+/* kliknięcie */
+
+.account-btn:active,
+.search-btn:active {
+
+    transform: scale(0.96);
+
+}
+
+.search-icon {
+
+    font-size: 20px;
+
+    margin-left: 12px;
+
+    color: #72777d;
+
+}
