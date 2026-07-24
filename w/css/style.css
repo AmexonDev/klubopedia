@@ -46,13 +46,6 @@ body {
     height: 38px;
 }
 
-
-.brand {
-    font-size: 18px;
-    font-weight: 600;
-}
-
-
 .search form {
     display: flex;
     gap: 8px;
